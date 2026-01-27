@@ -10,10 +10,10 @@ export default function Navbar() {
                 </div>
                 <div>
                     <ul className="flex gap-10">
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium">Sobre mí</li>
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium">Habilidades</li>
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium">Proyectos</li>
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium">Contacto</li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#about"></a> Sobre mí</li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#skills"></a> Habilidades</li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#proyects"></a> Proyectos</li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#contact"></a> Contacto</li>
                     </ul>
                 </div>
 
