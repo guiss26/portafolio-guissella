@@ -10,14 +10,14 @@ export default function Navbar() {
                 </div>
                 <div>
                     <ul className="flex gap-10">
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#about"></a> Sobre mí</li>
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#skills"></a> Habilidades</li>
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#proyects"></a> Proyectos</li>
-                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#contact"></a> Contacto</li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#about">Sobre mí</a></li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#skills">Habilidades</a></li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#proyects">Proyectos</a></li>
+                        <li className="text-neutral-600 hover:text-teal-700 transition-colors font-medium"><a href="#contact">Contacto</a></li>
                     </ul>
                 </div>
 
-                {/* añadir modo oscuro */}
+                {/* añadir modo oscuro y mirar lo del scrollbar-behavior: smooth*/}
             </nav>
         </header>
         </>
