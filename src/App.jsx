@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import './App.css'
 import Hero from './components/Hero'
 import Projects from './sections/Projects'
 import Skills from './sections/Skills'
