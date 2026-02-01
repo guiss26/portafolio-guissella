@@ -3,7 +3,7 @@ export default function Footer() {
     return (
         <>
             <footer>
-                <div className="bg-amber-100 py-6 border-t border-neutral-200 flex justify-center items-center gap-10">
+                <div className="py-4 border-t border-neutral-200 flex justify-center items-center gap-10">
                     <div className="text-neutral-600">
                         <p className="text-xs">© 2025 Guissella Pérez. Todos los derechos reservados</p>
                     </div>
