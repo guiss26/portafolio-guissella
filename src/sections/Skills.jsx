@@ -12,7 +12,7 @@ const skillsCategories = [ //probar hacerlo con un array de objeto y recorrerlo
 export default function Skills() {
     return (
         <>
-            <section id="skills" className='min-h-screen bg-neutral-50 flex flex-col justify-center'>
+            <section id="skills" className='min-h-screen bg-neutral-50 flex flex-col justify-center py-20'>
                 <article className='mx-8'>
                     <div>
                         <h2 className='text-5xl pb-2.5'>Habilidades</h2>
