@@ -93,7 +93,7 @@ export default function Skills() {
                         {/* security */}
                         <div id="seguridad" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
-                                <div className='bg-linear-to-r from-violet-600 to-indigo-600 rounded-xl p-2'>
+                                <div className='bg-linear-to-r from-cyan-600 to-blue-600 rounded-xl p-2'>
                                     <ShieldCheck className='size-6'/>
                                 </div>
                                 <h3 className='text-xl'>Seguridad</h3>
@@ -118,6 +118,11 @@ export default function Skills() {
                                 <span className='bg-gray-200 px-3 rounded-md'>VSCode</span>
                             </div>
                         </div>
+                    </div>
+
+                    <div className='inline-flex items-center justify-center gap-2 bg-white shadow-xl transition-all duration-300 py-2 px-4 rounded-full'>
+                        <span className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></span>
+                        <p className='className="text-neutral-600"'>Siempre aprendiendo nuevas tecnologías</p>
                     </div>
                 </article>
             </section>
