@@ -25,7 +25,7 @@ export default function Skills() {
                         <div id="frontend" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
                                 <div className='bg-linear-to-r from-violet-600 to-indigo-600 rounded-xl p-2'>
-                                    <Code2 className='size-6' />
+                                    <Code2 className='size-6 text-white' />
                                 </div>
                                 <h3 className='text-xl'>Frontend</h3>
                             </div>
@@ -46,7 +46,7 @@ export default function Skills() {
                         <div id="backend" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
                                 <div className='bg-linear-to-r from-emerald-600 to-teal-600 rounded-xl p-2'>
-                                    <DatabaseZap className='size-6' />
+                                    <DatabaseZap className='size-6 text-white' />
                                 </div>
                                 <h3 className='text-xl'>Backend</h3>
                             </div>
@@ -64,7 +64,7 @@ export default function Skills() {
                         <div id="bbdd" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
                                 <div className='bg-linear-to-r from-pink-600 to-rose-600 rounded-xl p-2'>
-                                    <Database className='size-6' />
+                                    <Database className='size-6 text-white' />
                                 </div>
                                 <h3 className='text-xl'>Base de datos</h3>
                             </div>
@@ -78,7 +78,7 @@ export default function Skills() {
                         <div id="testing" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
                                 <div className='bg-linear-to-r from-orange-600 to-amber-600 rounded-xl p-2'>
-                                    <FileCog className='size-6'/>
+                                    <FileCog className='size-6 text-white'/>
                                 </div>
                                 <h3 className='text-xl'>Testing</h3>
                             </div>
@@ -94,7 +94,7 @@ export default function Skills() {
                         <div id="seguridad" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
                                 <div className='bg-linear-to-r from-cyan-600 to-blue-600 rounded-xl p-2'>
-                                    <ShieldCheck className='size-6'/>
+                                    <ShieldCheck className='size-6 text-white'/>
                                 </div>
                                 <h3 className='text-xl'>Seguridad</h3>
                             </div>
@@ -108,7 +108,7 @@ export default function Skills() {
                         <div id="herramientas" className='bg-white hover:shadow-xl transition-all duration-300 p-6 rounded-xl'>
                             <div className='flex gap-2.5 items-center'>
                                 <div className='bg-linear-to-r from-purple-600 to-violet-600 rounded-xl p-2'>
-                                    <Zap className='size-6'/>
+                                    <Zap className='size-6 text-white'/>
                                 </div>
                                 <h3 className='text-xl'>Herramientas</h3>
                             </div>
