@@ -2,15 +2,15 @@
 export default function Hero() {
     return (
         <>
-            <section id="hero" className="min-h-screen flex items-center justify-center gap-5">
+            <section id="hero" className="min-h-screen flex items-center justify-center gap-5 py-20">
                 <div className="max-w-2xl mx-auto flex flex-col gap-5 py-5">
-                    <div className="">
+                    {/* <div className="">
                         <span className="bg-teal-50 text-teal-800 rounded-full py-2 px-4">Disponible para trabajar</span>
-                    </div>
-                    <div className="flex flex-col gap-5">
-                        <h1 className="text-6xl">Hola, soy <span className="bg-linear-to-r from-teal-600 to-blue-900 bg-clip-text text-transparent">Guissella Pérez</span></h1>
-                        <p className="text-xl text-neutral-600 max-w-2xl mx-auto">Desarrolladora web fullstack apasionada por crear experiencias digitales únicas y funcionales, cuidando tanto la experiencia del usuario como la calidad del código.
-
+                    </div> */}
+                    <div className="flex flex-col gap-3">
+                        <h1 className="text-7xl mt-5">Guissella Pérez</h1>
+                        <span className="text-2xl bg-linear-to-r from-teal-600 to-blue-900 bg-clip-text text-transparent">Desarrolladora Web Full-Stack Junior</span>
+                        <p className="text-xl mt-6 text-neutral-600 max-w-2xl mx-auto">Desarrolladora web fullstack apasionada por crear experiencias digitales únicas y funcionales, cuidando tanto la experiencia del usuario como la calidad del código.
                         </p>
                     </div>
                     <div className="flex items-center justify-center gap-3 my-5">
