@@ -130,7 +130,7 @@ export default function Projects() {
                         </div>
 
                         {/* Cine de verano  */}
-                        <div className="bg-neutral-50 rounded-2xl">
+                        {/* <div className="bg-neutral-50 rounded-2xl">
                             <figure>
                                 <img src="" alt="" />
                             </figure>
@@ -151,7 +151,7 @@ export default function Projects() {
                                     <a href="" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
                                 </div>
                             </figcaption>
-                        </div>
+                        </div> */}
 
                         {/* Nitrógeno  */}
                         <div className="bg-neutral-50 rounded-2xl">
