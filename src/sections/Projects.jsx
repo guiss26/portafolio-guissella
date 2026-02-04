@@ -1,4 +1,11 @@
 import { Github } from 'lucide-react';
+import sprintFlow from '../assets/sprint-flow-3.PNG'
+import celestialBloom from '../assets/celestial-bloom.PNG'
+import apiNoctiluca from '../assets/api-noctiluca.PNG'
+import tarotCards from '../assets/tarot-cards.PNG'
+import polinizadoresAmerica from '../assets/polinizadoreas-america.PNG'
+import nitrogeno from '../assets/nitrogeno.PNG'
+import piedrasAngulares from '../assets/piedras-angulares.PNG'
 
 export default function Projects() {
     return (
@@ -15,7 +22,7 @@ export default function Projects() {
                         {/* SprintFlow */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64">
-                                <img src="src/assets/sprint-flow-3.PNG" alt="sprintflow-dashboard-admin" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={sprintFlow} alt="sprintflow-dashboard-admin" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">SprintFlow</h3>
@@ -41,7 +48,7 @@ export default function Projects() {
                         {/* Celestial Bloom */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64">
-                                <img src="src/assets/celestial-bloom.PNG" alt="celestial-bloom-hero" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={celestialBloom} alt="celestial-bloom-hero" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className='text-left p-7'>
                                 <h3 className="text-xl font-medium mb-2">Celestial Bloom: blog de astronomía y botánica</h3>
@@ -64,7 +71,7 @@ export default function Projects() {
                         {/* API-Noctiluca */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64">
-                                <img src="src/assets/api-noctiluca.PNG" alt="noctiluca-gallery-photos" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={apiNoctiluca} alt="noctiluca-gallery-photos" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">API-Noctiluca</h3>
@@ -87,7 +94,7 @@ export default function Projects() {
                         {/* Cartas del Tarot */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64">
-                                <img src="src/assets/tarot-cards.PNG" alt="tarot-reading-cards" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={tarotCards} alt="tarot-reading-cards" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Cartas del Tarot</h3>
@@ -109,7 +116,7 @@ export default function Projects() {
                         {/* Polinizadores de América  */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64">
-                                <img src="src/assets/polinizadoreas-america.PNG" alt="polinizadores-gallery" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={polinizadoresAmerica} alt="polinizadores-gallery" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Polinizadores de América</h3>
@@ -156,7 +163,7 @@ export default function Projects() {
                         {/* Nitrógeno  */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64">
-                                <img src="src/assets/nitrogeno.PNG" alt="history-nitrogeno" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={nitrogeno} alt="history-nitrogeno" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Tabla periódica: Nitrógeno</h3>
@@ -177,7 +184,7 @@ export default function Projects() {
                         {/* Piedras Angulares */}
                         <div className="bg-neutral-50 rounded-2xl">
                             <figure className="h-64 overflow-hidden">
-                                <img src="src/assets/piedras-angulares.PNG" alt="piedras-angulares-cards" className="h-full w-full object-cover rounded-t-2xl" />
+                                <img src={piedrasAngulares} alt="piedras-angulares-cards" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Piedras Angulares</h3>
