@@ -8,6 +8,13 @@ import nitrogeno from '../assets/nitrogeno.PNG'
 import piedrasAngulares from '../assets/piedras-angulares.PNG'
 
 export default function Projects() {
+
+    const projectsB = [
+        {
+            
+        }
+    ]
+
     return (
         <>
             <section id="proyects" className="min-h-screen bg-white flex flex-col items-center justify-center py-15 border-b border-neutral-200">
@@ -17,7 +24,7 @@ export default function Projects() {
                         <p className="text-neutral-600 text-sm">Una selección de mis trabajos más recientes que demuestran mis habilidades y pasión por el desarrollo web</p>
                     </div>
 
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-15">
+                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 p-10">
                         
                         {/* SprintFlow */}
                         <div className="bg-neutral-50 rounded-2xl">
