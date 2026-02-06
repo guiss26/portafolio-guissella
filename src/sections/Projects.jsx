@@ -21,24 +21,24 @@ export default function Projects() {
                         
                         {/* SprintFlow */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64">
+                            <figure className="h-60">
                                 <img src={sprintFlow} alt="sprintflow-dashboard-admin" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">SprintFlow</h3>
-                                <p className="text-neutral-600">Aplicación fullstack para mejorar la gestión ágil de proyectos basado es Scrum con métricas en tiempo real, calculadora de puntos de usuario, de las velocidades reales y ponderadas.</p>
+                                <p className="text-neutral-600 text-sm">Aplicación fullstack para mejorar la gestión ágil de proyectos basado es Scrum con métricas en tiempo real, calculadora de puntos de usuario, de las velocidades reales y ponderadas.</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">React</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Node.js</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">MongoDB</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Material UI</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">JWT</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Bcrypt</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">React</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Node.js</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">MongoDB</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Material UI</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">JWT</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Bcrypt</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/orgs/SprintFlow/repositories" className='inline-flex gap-1 font-medium mt-6'>
+                                    <a href="https://github.com/orgs/SprintFlow/repositories" className='inline-flex gap-1 font-medium mt-6 text-sm'>
                                         <Github /> Código
                                     </a>
                                 </div>
@@ -47,91 +47,91 @@ export default function Projects() {
 
                         {/* Celestial Bloom */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64">
+                            <figure className="h-60">
                                 <img src={celestialBloom} alt="celestial-bloom-hero" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className='text-left p-7'>
                                 <h3 className="text-xl font-medium mb-2">Celestial Bloom: blog de astronomía y botánica</h3>
-                                <p className="text-neutral-600">Aplicación fullstack de Blog temático de astronomía y botánica, con gestión de usuarios y control de roles. Los usuarios pueden leer los artículos publicados, mientras que los administradores cuentas con funcionalidades completas de gestión de contenido (crear, editar, leer y borrar artículos).</p>
+                                <p className="text-neutral-600 text-sm">Aplicación fullstack de Blog temático de astronomía y botánica, con gestión de usuarios y control de roles. Los usuarios pueden leer los artículos publicados, mientras que los administradores cuentas con funcionalidades completas de gestión de contenido (crear, editar, leer y borrar artículos).</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">React</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">CSS</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Cloudinary</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">TypeScript</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">MongoDB</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">React</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">CSS</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Cloudinary</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">TypeScript</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">MongoDB</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/orgs/Sylva-Organization/repositories" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="https://github.com/orgs/Sylva-Organization/repositories" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div>
 
                         {/* API-Noctiluca */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64">
+                            <figure className="h-60">
                                 <img src={apiNoctiluca} alt="noctiluca-gallery-photos" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">API-Noctiluca</h3>
-                                <p className="text-neutral-600">Creación de aplicación fullstack del proyecto Noctiluca (Cuaderno de campo de Campo de Mariposas). Este trabajo se centra en construir y mantener tanto backend (API y lógica de servidor) como el frontend del sistema.</p>
+                                <p className="text-neutral-600 text-sm">Creación de aplicación fullstack del proyecto Noctiluca (Cuaderno de campo de Campo de Mariposas). Este trabajo se centra en construir y mantener tanto backend (API y lógica de servidor) como el frontend del sistema.</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">React</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Tailwind</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">MongoDB</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">MySQL</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Cloudinary</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">React</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Tailwind</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">MongoDB</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">MySQL</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Cloudinary</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/API-Noctiluca" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="https://github.com/API-Noctiluca" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div>
 
                         {/* Cartas del Tarot */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64">
+                            <figure className="h-60">
                                 <img src={tarotCards} alt="tarot-reading-cards" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Cartas del Tarot</h3>
-                                <p className="text-neutral-600">Aplicación web del Tarot místico, donde se pueden visualizar las cartas del tarot y a su vez, las mujeres del mundo de la ciencia y tecnoloía asociadas. Lectura de cartas pasado, presente y futuro.</p>
+                                <p className="text-neutral-600 text-sm">Aplicación web del Tarot místico, donde se pueden visualizar las cartas del tarot y a su vez, las mujeres del mundo de la ciencia y tecnoloía asociadas. Lectura de cartas pasado, presente y futuro.</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">React</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">CSS</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">JavaScript</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">API externa</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">React</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">CSS</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">JavaScript</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">API externa</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/guiss26/tarot-cards" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="https://github.com/guiss26/tarot-cards" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div>
 
                         {/* Polinizadores de América  */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64">
+                            <figure className="h-60">
                                 <img src={polinizadoresAmerica} alt="polinizadores-gallery" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Polinizadores de América</h3>
-                                <p className="text-neutral-600">Aplicación web sobre polinizadores de América (mariposas), cuaderno de campo digital para documentar y conservar polinizadores de toda América en peligro de extinción</p>
+                                <p className="text-neutral-600 text-sm">Aplicación web sobre polinizadores de América (mariposas), cuaderno de campo digital para documentar y conservar polinizadores de toda América en peligro de extinción</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">React</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">CSS</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Tailwind</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">JavaScript</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">json-server</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">React</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">CSS</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Tailwind</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">JavaScript</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">json-server</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/irinatiron/polinizadores-america-mariposas" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="https://github.com/irinatiron/polinizadores-america-mariposas" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div>
@@ -143,61 +143,61 @@ export default function Projects() {
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Cine de Verano</h3>
-                                <p className="text-neutral-600">Creación de una aplicación web de cine de verano con recomendaciones de películas que se pueda leer, editar, guardar y eliminar datos de manera dinámica.</p>
+                                <p className="text-neutral-600 text-sm">Creación de una aplicación web de cine de verano con recomendaciones de películas que se pueda leer, editar, guardar y eliminar datos de manera dinámica.</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">CSS</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">HTML</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">React</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">Tailwind</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">JavaScript</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">API-pública</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">CSS</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">HTML</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">React</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">Tailwind</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">JavaScript</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">API-pública</span>
                                 </div>
 
                                 <div>
-                                    <a href="" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div> */}
 
                         {/* Nitrógeno  */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64">
+                            <figure className="h-60">
                                 <img src={nitrogeno} alt="history-nitrogeno" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Tabla periódica: Nitrógeno</h3>
-                                <p className="text-neutral-600">Creación de una aplicación web sobre el elemento Nitrógeno de la tabla periódica, como medio para aprender y conocer más acerca de dicho elemento de manera dinámica.</p>
+                                <p className="text-neutral-600 text-sm">Creación de una aplicación web sobre el elemento Nitrógeno de la tabla periódica, como medio para aprender y conocer más acerca de dicho elemento de manera dinámica.</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">HTML</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">CSS</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">JavaScript</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">HTML</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">CSS</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">JavaScript</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/guiss26/nitrogeno.git" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="https://github.com/guiss26/nitrogeno.git" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div>
 
                         {/* Piedras Angulares */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-64 overflow-hidden">
+                            <figure className="h-60 overflow-hidden">
                                 <img src={piedrasAngulares} alt="piedras-angulares-cards" className="h-full w-full object-cover rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Piedras Angulares</h3>
-                                <p className="text-neutral-600">Creación de una aplicación web sobre mujeres en la ciencia que tuvieron un aporte importante pero pasaron desapercibidas.</p>
+                                <p className="text-neutral-600 text-sm">Creación de una aplicación web sobre mujeres en la ciencia que tuvieron un aporte importante pero pasaron desapercibidas.</p>
 
                                 <div className="mt-4 inline-flex gap-1.5 flex-wrap">
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">HTML</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">CSS</span>
-                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800">JavaScript</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">HTML</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">CSS</span>
+                                    <span className="bg-white py-1 px-3 rounded-3xl border border-neutral-300 text-neutral-800 text-sm">JavaScript</span>
                                 </div>
 
                                 <div>
-                                    <a href="https://github.com/guiss26/piedras-angulares" className='inline-flex gap-1 font-medium mt-6'><Github /> Código</a>
+                                    <a href="https://github.com/guiss26/piedras-angulares" className='inline-flex gap-1 font-medium mt-6 text-sm'><Github /> Código</a>
                                 </div>
                             </figcaption>
                         </div>
