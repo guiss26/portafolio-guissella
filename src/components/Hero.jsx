@@ -9,7 +9,7 @@ export default function Hero() {
                     </div> */}
                     <div className="flex flex-col gap-3">
                         <h1 className="text-7xl mt-5 font-medium text-neutral-700">Guissella Pérez</h1>
-                        <span className="text-2xl bg-linear-to-r from-teal-600 to-blue-900 bg-clip-text text-transparent">Desarrolladora Web Full-Stack Junior</span>
+                        <span className="text-2xl bg-linear-to-r from-teal-600 to-blue-900 bg-clip-text text-transparent">Junior FullStack Developer</span>
                         <p className="text-xl mt-6 text-neutral-600 max-w-2xl mx-auto">Desarrolladora web fullstack apasionada por crear experiencias digitales únicas y funcionales, cuidando tanto la experiencia del usuario como la calidad del código.
                         </p>
                     </div>
