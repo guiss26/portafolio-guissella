@@ -28,8 +28,8 @@ export default function Projects() {
                         
                         {/* SprintFlow */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60">
-                                <img src={sprintFlow} alt="sprintflow-dashboard-admin" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={sprintFlow} alt="sprintflow-dashboard-admin" className="h-full w-full rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">SprintFlow</h3>
@@ -54,8 +54,8 @@ export default function Projects() {
 
                         {/* Celestial Bloom */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60">
-                                <img src={celestialBloom} alt="celestial-bloom-hero" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={celestialBloom} alt="celestial-bloom-hero" className="h-full w-full rounded-t-2xl" />
                             </figure>
                             <figcaption className='text-left p-7'>
                                 <h3 className="text-xl font-medium mb-2">Celestial Bloom: blog de astronomía y botánica</h3>
@@ -77,8 +77,8 @@ export default function Projects() {
 
                         {/* API-Noctiluca */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60">
-                                <img src={apiNoctiluca} alt="noctiluca-gallery-photos" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={apiNoctiluca} alt="noctiluca-gallery-photos" className="h-full w-full drop-shadow-lg rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">API-Noctiluca</h3>
@@ -100,8 +100,8 @@ export default function Projects() {
 
                         {/* Cartas del Tarot */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60">
-                                <img src={tarotCards} alt="tarot-reading-cards" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={tarotCards} alt="tarot-reading-cards" className="h-full w-full rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Cartas del Tarot</h3>
@@ -122,8 +122,8 @@ export default function Projects() {
 
                         {/* Polinizadores de América  */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60">
-                                <img src={polinizadoresAmerica} alt="polinizadores-gallery" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={polinizadoresAmerica} alt="polinizadores-gallery" className="h-full w-full rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Polinizadores de América</h3>
@@ -145,8 +145,8 @@ export default function Projects() {
 
                         {/* Cine de verano  */}
                         {/* <div className="bg-neutral-50 rounded-2xl">
-                            <figure>
-                                <img src="" alt="" />
+                            <figure className="h-60">
+                                <img src="" alt="" className="h-full w-full object-cover rounded-t-2xl"/>
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Cine de Verano</h3>
@@ -169,8 +169,8 @@ export default function Projects() {
 
                         {/* Nitrógeno  */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60">
-                                <img src={nitrogeno} alt="history-nitrogeno" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={nitrogeno} alt="history-nitrogeno" className="h-full w-full rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Tabla periódica: Nitrógeno</h3>
@@ -190,8 +190,8 @@ export default function Projects() {
 
                         {/* Piedras Angulares */}
                         <div className="bg-neutral-50 rounded-2xl">
-                            <figure className="h-60 overflow-hidden">
-                                <img src={piedrasAngulares} alt="piedras-angulares-cards" className="h-full w-full object-cover rounded-t-2xl" />
+                            <figure className="h-60 object-cover">
+                                <img src={piedrasAngulares} alt="piedras-angulares-cards" className="h-full w-full rounded-t-2xl" />
                             </figure>
                             <figcaption className="text-left p-7">
                                 <h3 className="text-xl font-medium mb-2">Piedras Angulares</h3>
