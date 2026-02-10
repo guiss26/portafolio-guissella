@@ -6,8 +6,12 @@ import tarotCards from '../assets/tarot-cards.PNG'
 import polinizadoresAmerica from '../assets/polinizadoreas-america.PNG'
 import nitrogeno from '../assets/nitrogeno.PNG'
 import piedrasAngulares from '../assets/piedras-angulares.PNG'
+import { useState } from 'react';
+import Pagination from '../components/Pagination';
 
 export default function Projects() {
+    const [page, setPage] = useState(1)
+    const [perPage, setPerPage] = useState(3) // que se vean 3 proyectos por página
 
     const projectsB = [
         { // Sprintflow
@@ -75,6 +79,10 @@ export default function Projects() {
         }
     ]
 
+    const max = Math.ceil(projectsB.length / perPage)
+    // const max = 3
+    console.log(max)
+
     return (
         <>
             <section id="proyects" className="min-h-screen bg-white flex flex-col items-center justify-center py-15 border-b border-neutral-200">
@@ -86,7 +94,9 @@ export default function Projects() {
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 p-10">
                         {/* QUEDA PASARLO A CARRUSEL */}
-                        {projectsB.map((project) => (
+                        {projectsB
+                        .slice((page - 1) * perPage, (page - 1) * perPage + perPage)
+                        .map((project) => (
                             <div key={project.id} className="bg-neutral-50 rounded-2xl">
                                 <figure className="h-60 object-cover">
                                     <img src={project.photo} alt={project.alt} className="h-full w-full rounded-t-2xl" />
@@ -136,6 +146,8 @@ export default function Projects() {
                         </div> */}
 
                     </div>
+                    
+                    <Pagination page={page} setPage={setPage} max={max}/>
                 </article>
             </section>
         </>
