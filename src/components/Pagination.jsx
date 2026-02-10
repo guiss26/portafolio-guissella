@@ -6,11 +6,6 @@ export default function Pagination({ page, setPage, max}) {
     const [spanPage, setSpanPage] = useState(1)
 
     const nextPage = () => {
-        // if (page < 3) {
-        //     setSpanPage(spanPage + 1)
-        //     setPage(page + 1)
-        // }
-
         if (page < max) {
             setSpanPage(spanPage + 1)
             setPage(page + 1)

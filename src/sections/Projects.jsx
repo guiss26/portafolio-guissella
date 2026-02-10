@@ -80,8 +80,6 @@ export default function Projects() {
     ]
 
     const max = Math.ceil(projectsB.length / perPage)
-    // const max = 3
-    console.log(max)
 
     return (
         <>
@@ -89,11 +87,9 @@ export default function Projects() {
                 <article className="">
                     <div className="py-5">
                         <h2 className="text-5xl pb-5">Proyectos descatados</h2>
-                        {/* <p className="text-neutral-600 text-sm">Una selección de mis trabajos más recientes que demuestran mis habilidades y pasión por el desarrollo web</p> */}
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 p-10">
-                        {/* QUEDA PASARLO A CARRUSEL */}
                         {projectsB
                         .slice((page - 1) * perPage, (page - 1) * perPage + perPage)
                         .map((project) => (
