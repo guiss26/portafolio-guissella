@@ -89,7 +89,7 @@ export default function Projects() {
                 <article className="">
                     <div className="py-5">
                         <h2 className="text-5xl pb-5">Proyectos descatados</h2>
-                        <p className="text-neutral-600 text-sm">Una selección de mis trabajos más recientes que demuestran mis habilidades y pasión por el desarrollo web</p>
+                        {/* <p className="text-neutral-600 text-sm">Una selección de mis trabajos más recientes que demuestran mis habilidades y pasión por el desarrollo web</p> */}
                     </div>
 
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9 p-10">
@@ -146,7 +146,7 @@ export default function Projects() {
                         </div> */}
 
                     </div>
-                    
+
                     <Pagination page={page} setPage={setPage} max={max}/>
                 </article>
             </section>
