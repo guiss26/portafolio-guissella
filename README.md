@@ -1,10 +1,10 @@
-# 🌟 Portafolio Personal — Guissella
+# 🌟 Portfolio Personal — Guissella Pérez
 
-Bienvenido/a a mi portafolio personal, una aplicación web desarrollada con React donde muestro mis proyectos, habilidades y experiencia como desarrolladora.
+Bienvenido/a a mi portfolio personal, una aplicación web desarrollada con React donde muestro mis proyectos, habilidades y experiencia como desarrolladora.
 
 ## 🚀 Demo en vivo
 
-🔗 [Ver portafolio](portafolio-guissella.vercel.app/) <!-- Reemplaza con tu URL real -->
+🔗 [Ver portafolio](portafolio-guissella.vercel.app/) 
 
 ---
 
@@ -23,7 +23,7 @@ Bienvenido/a a mi portafolio personal, una aplicación web desarrollada con Reac
 | **Vite** | Bundler y servidor de desarrollo |
 | **JavaScript (ES6+)** | Lógica de la aplicación |
 | **HTML5 & CSS3** | Estructura y estilos |
-| **Tailwind CSS / Bootstrap** | Estilos y diseño responsive |
+| **Tailwind CSS** | Estilos y diseño responsive |
 | **Lucide React** | Iconografía |
 | **EmailJS** | Envío de correos desde el formulario de contacto |
 
@@ -63,8 +63,8 @@ Luego abre [http://localhost:5173](http://localhost:5173) en tu navegador.
 
 ¿Tienes alguna pregunta o propuesta? ¡No dudes en escribirme!
 
-- 💼 [LinkedIn](https://linkedin.com/in/tu-perfil) <!-- Reemplaza con tu enlace -->
-- 📧 [tu@email.com](mailto:tu@email.com) <!-- Reemplaza con tu email -->
+- 💼 [LinkedIn](https://www.linkedin.com/in/guissella-p%C3%A9rez/) 
+- 📧 [tu@email.com](mailto:guissella584@email.com) 
 - 🐙 [GitHub](https://github.com/guiss26)
 
 ---
