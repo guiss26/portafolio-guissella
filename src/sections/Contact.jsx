@@ -33,12 +33,13 @@ export default function Contact() {
 
     return (
         <>
-            <section id='contact' className="bg-white min-h-screen py-20 px-10">
+            <section id='contact' className="bg-white min-h-screen py-20 px-6 md:px-10">
                 <form id='form' onSubmit={onSubmit} method='POST'>
-                    <h2 className='text-5xl pb-3'>Trabajemos juntos</h2>
+                    <h2 className='text-4xl md:text-5xl pb-3'>Trabajemos juntos</h2>
                     <p className='text-neutral-600'>¿Tienes un proyecto en mente? Me encantaría escuchar sobre él</p>
-                    <div className='flex justify-between w-full gap-11 mt-10'>
-                        <fieldset className='w-full px-7 py-5'>
+
+                    <div className='flex flex-col md:flex-row justify-between w-full gap-8 md:gap-11 mt-10'>
+                        <fieldset className='w-full md:w-1/2 px-0 md:px-7 py-5'>
                             <legend className='font-medium text-xl text-left'>Información de contacto</legend>
 
                             <div className='flex flex-col gap-3 text-left'>
@@ -74,9 +75,9 @@ export default function Contact() {
                             </div>
                         </fieldset>
 
-                        {/* Datos usuario */}
-                        <fieldset className='w-full text-left flex flex-col gap-4'>
-                            <div className='flex flex-col '>
+                        {/* Formulario */}
+                        <fieldset className='w-full md:w-1/2 text-left flex flex-col gap-4'>
+                            <div className='flex flex-col'>
                                 <label htmlFor="name" className='mb-2'>Nombre</label>
                                 <input id='name' name='name' type="text" className='bg-neutral-50 p-3 border border-neutral-200 rounded-xl text-sm' placeholder='Tu nombre' required />
                             </div>
@@ -92,7 +93,12 @@ export default function Contact() {
                             </div>
 
                             <button type='submit' className='bg-linear-to-r from-teal-600 to-blue-900 text-white rounded-xl hover:shadow-lg transition-shadow flex items-center justify-center p-3 gap-2' disabled={loading}>{loading ? 'Enviando...' : 'Enviar mensaje'}<Send className='text-white' size={15} /> </button>
-                            <p>{result}</p>
+                            {/* <p>{result}</p> */}
+                            {result && (
+                            <p className={`text-sm text-center ${result.includes('❌') ? 'text-red-500' : 'text-teal-600'}`}>
+                                {result}
+                            </p>
+                        )}
                         </fieldset>
                     </div>
                 </form>
